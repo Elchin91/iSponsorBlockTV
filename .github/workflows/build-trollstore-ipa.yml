@@ -100,7 +100,7 @@ jobs:
           zip -r iSponsorBlockTV-TrollStore.ipa Payload
           
       - name: Upload IPA
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: TrollStore-IPA
           path: iSponsorBlockTV-TrollStore.ipa
